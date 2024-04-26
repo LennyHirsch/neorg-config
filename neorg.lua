@@ -1,3 +1,4 @@
+local neorg_config = {
   {
     'nvim-neorg/neorg',
     dependencies = { 'luarocks.nvim' },
@@ -40,3 +41,6 @@
     end,
     cmd = 'Neorg',
   },
+}
+
+return neorg_config
